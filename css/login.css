@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: #003d80;
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+}
+.header img {
+    width: 220px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.header p {
+    margin: 5px 0 0;
+}
+.login-container {
+    background-color: white; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: -50px auto 0;
+    position: relative;
+    z-index: 1;
+}
+.form-group label {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    margin-top: 26px;
+}
+.btn-primary:hover {
+    background-color: #003d80;
+    border-color: #003d80;
+}
+.text-danger {
+    text-align: center;
+    margin-top: 1rem;
+}
+.form-group-password {
+    position: relative;
+}
+.form-group-password input {
+    padding-right: 40px;
+}
+.form-group-password .toggle-password {
+    position: absolute;
+    top: 75%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.modal .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+}

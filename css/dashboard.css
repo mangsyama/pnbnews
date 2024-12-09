@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.admin-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.menu-card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon-container i {
+    color: white;
+    font-size: 24px;
+}
+
+.stat-info {
+    flex-grow: 1;
+}
+
+.stat-info h4 {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.stat-info p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.comment-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.reply-content {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
